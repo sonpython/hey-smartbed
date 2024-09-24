@@ -1,0 +1,12 @@
+{
+  "type": "micro",
+  "wake_word": "hey smartbed",
+  "author": "Michael Phan",
+  "website": "https://hahl.io/",
+  "model": "./hey_smartbed.tflite",
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.55,
+    "sliding_window_average_size": 10
+  }
+}
